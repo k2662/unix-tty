@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ "$TERM" = "xterm-256color" ]; then
+if [ "$TERM" = "xterm-*" ]; then
 	echo -e "
 	\e]P0$base
 	\e]P1$love
