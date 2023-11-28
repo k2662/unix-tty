@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ "$TERM" = "xterm-256color" ]; then
-	/bin/echo -e "
+	echo -e "
 	\e]P0$base
 	\e]P1$love
 	\e]P2$foam
