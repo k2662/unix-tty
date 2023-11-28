@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ "$TERM" = "xterm-256color" ]; then
+if [ "$TERM" = "xterm-*" ]; then
 	/bin/echo -e "
 	\e]P0#232136
 	\e]P1#eb6f92
